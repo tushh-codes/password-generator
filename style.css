@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.pw-container {
+  background-color: rgb(2, 1, 31);
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.pw-header {
+  padding: 1rem;
+}
+
+.pw-body {
+  padding: 1rem;
+}
+
+.pw {
+  height: 70px;
+  width: 100%;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
+
+.pw button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: royalblue;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 5px;
+}
+
+.pw-body {
+  padding: 1rem;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  color: #eee;
+  margin: 0.75rem 0;
+}
+
+.generate {
+  display: block;
+  background-color: crimson;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
